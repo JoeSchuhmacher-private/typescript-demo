@@ -1,0 +1,14 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "We are developers - typescript demo",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Schuhmacher",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
