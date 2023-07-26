@@ -1,4 +1,4 @@
-# 🚀 We are developers - **TypeScript Talk**
+# 🚀 We are developers - **TypeScript Demo**
 
 ## 🔖  Assert unreachable
 
