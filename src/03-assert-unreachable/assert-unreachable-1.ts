@@ -1,8 +1,8 @@
 enum ActionType {
-  CreateStory,
-  ImplementStory,
-  ApproveStory,
-  TestStory,
+  CreateStory = 'CreateStory',
+  ImplementStory = 'ImplementStory',
+  ApproveStory = 'ApproveStory',
+  TestStory = 'TestStory',
 }
 
 enum UserRole {

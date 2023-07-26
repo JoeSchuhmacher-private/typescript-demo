@@ -1,10 +1,10 @@
 import {assertUnreachable} from '../util/assertUnreachable';
 
 enum ActionType {
-  CreateStory,
-  ImplementStory,
-  ApproveStory,
-  TestStory,
+  CreateStory = 'CreateStory',
+  ImplementStory = 'ImplementStory',
+  ApproveStory = 'ApproveStory',
+  TestStory = 'TestStory',
 }
 
 interface Action {

@@ -1,10 +1,10 @@
 const getCurrentUser = () => ({ isScumMaster: true, isDeveloper: false, isProductOwner: false });
 
 enum ActionType {
-  CreateStory,
-  ImplementStory,
-  ApproveStory,
-  TestStory,
+  CreateStory = 'CreateStory',
+  ImplementStory = 'ImplementStory',
+  ApproveStory = 'ApproveStory',
+  TestStory = 'TestStory',
 }
 
 const validScrumMasterActions = new Set<ActionType>([
